@@ -6,7 +6,6 @@ import os
 from os.path import join,dirname
 from dotenv import load_dotenv, find_dotenv
 import streamlit as st
-import tensorflow as tf
 import requests
 
 st.markdown('hello')
