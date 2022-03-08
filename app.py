@@ -5,7 +5,6 @@ import cloudinary.uploader
 import os
 from os.path import join,dirname
 from dotenv import load_dotenv, find_dotenv
-import streamlit as st
 import requests
 import pandas as pd
 from PIL import Image
@@ -46,7 +45,7 @@ if  uploaded_file :
     st.markdown(url_video_path)
 
 
-#asking user for his or her height in meter 
+#asking user for his or her height in meter
 height_cm = st.number_input('Enter your size (Height) in centimeter :')
 
 st.write('You measure : ', height_cm / 100, ' m')
@@ -136,10 +135,10 @@ dictionary_of_pattern = {'Aaron': 'https://res.cloudinary.com/paittern/image/upl
                       'Walburga': 'https://res.cloudinary.com/paittern/image/upload/v1646752085/streamlit_images/Walburga_pavgnn.png',
                        'Waralee': 'https://res.cloudinary.com/paittern/image/upload/v1646752084/streamlit_images/Waralee_rarfuh.png',
                           'Yuri': 'https://res.cloudinary.com/paittern/image/upload/v1646752084/streamlit_images/Yuri_dujtzk.png'}
-                         
-                         
-                         
-                        
+
+
+
+
 
 # image = Image.open('https://res.cloudinary.com/paittern/image/upload/v1646751836/streamlit_images/Aaron_hjqvjy.png')
 
